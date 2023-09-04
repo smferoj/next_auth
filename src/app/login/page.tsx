@@ -5,10 +5,13 @@ import { useRouter } from "next/navigation";
 import { axios } from "axios";
 
 export default function LoginPage() {
+  const router = useRouter();
   const [user, setUser] = React.useState({
     email: "",
     password: "",
   });
+
+  const [buttonDisabled, setButtonDisabled] = React.useState(false)
 
   const onLogin = async () => {};
 
