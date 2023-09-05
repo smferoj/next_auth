@@ -60,7 +60,6 @@ export default function LoginPage() {
         onChange={(e) => setUser({ ...user, password: e.target.value })}
         placeholder="password"
       />
-        <Toaster/>
       <button
         onClick={onLogin}
         className="p-2 mt-5 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"
