@@ -21,3 +21,4 @@ src=>helper=>getDatFromToken.ts
 
 >mailer.ts
 >api/users/verifyemail/route.js
+============throung singup pass email======
