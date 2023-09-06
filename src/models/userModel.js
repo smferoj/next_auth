@@ -24,7 +24,7 @@ isAdmin:{
     type:Boolean,
     default:false,
 },
-forgetPasswordToken: String,
+forgotPasswordToken: String,
 forgotPasswordTokenExpiry:Date,
 verifyToken:String,
 verifyTokenExpiry:Date,

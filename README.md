@@ -18,3 +18,7 @@ implement in profile=>page.js
 > get user data
 src=>helper=>getDatFromToken.ts
 ** user id shown from profile page (creating button to see user id)
+
+>mailer.ts
+>api/users/verifyemail/route.js
+============throung singup pass email======
